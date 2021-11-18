@@ -42,19 +42,15 @@ def audioToText(audioFile):
     return result
 
 
-try:
-    chrome_options = Options()
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    driver = webdriver.Chrome(options=chrome_options)
-    delay()
-    # go to website which have recaptcha protection
-    driver.get(URL)
-    delay()
-    driver.save_screenshot("sss.png")
-except Exception as e:
-   print(
-        "[-] Please update the chromedriver.exe in the webdriver folder according to your chrome version:https://chromedriver.chromium.org/downloads")
+chrome_options = Options()
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
+driver = webdriver.Chrome(options=chrome_options)
+delay()
+# go to website which have recaptcha protection
+driver.get(URL)
+delay()
+driver.save_screenshot("sss.png")
 
 g_recaptcha = driver.find_elements_by_class_name('g-recaptcha')[0]
 outerIframe = g_recaptcha.find_element_by_tag_name('iframe')
