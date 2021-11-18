@@ -1,0 +1,14 @@
+name: GB
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Start GB
+      run: python main.py
