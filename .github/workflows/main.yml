@@ -10,4 +10,5 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           python-version: "3.7"
+      - run: pip install selenium
       - run: python main.py
