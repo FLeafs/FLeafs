@@ -11,7 +11,7 @@ import requests
 
 audioToTextDelay = 10
 delayTime = 2
-nickname = "zero_core"
+nickname = "ZenitsuAkatsuki"
 audioFile = "\\payload.mp3"
 URL = "https://minecraft-mp.com/server/295107/vote?alternate_captcha=2"
 SpeechToTextURL = "https://speech-to-text-demo.ng.bluemix.net/"
