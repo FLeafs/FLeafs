@@ -11,10 +11,17 @@ import requests
 
 audioToTextDelay = 10
 delayTime = 2
-nickname = "ZenitsuAkatsuki"
+url1 = "https://cdn.discordapp.com/attachments/811871558138200075/911082266812370944/1.txt"
+url2 = 'https://cdn.discordapp.com/attachments/811871558138200075/911084580214284298/2.txt'
 audioFile = "\\payload.mp3"
 URL = "https://minecraft-mp.com/server/295107/vote?alternate_captcha=2"
 SpeechToTextURL = "https://speech-to-text-demo.ng.bluemix.net/"
+name1 = requests.get(url1).text
+name2 = requests.get(url2).text
+names1 = random.choice(name1.split())
+names2 = random.choice(name2.split())
+
+nickname = names1+names2
 
 def delay():
     time.sleep(random.randint(5, 7))
@@ -53,8 +60,7 @@ try:
     delay()
     driver.save_screenshot("sss.png")
 except Exception as e:
-   print(
-        "[-] Please update the chromedriver.exe in the webdriver folder according to your chrome version:https://chromedriver.chromium.org/downloads")
+   print("[INFO!] Minecraft NickName = "+nickname)
 
 g_recaptcha = driver.find_elements_by_class_name('g-recaptcha')[0]
 outerIframe = g_recaptcha.find_element_by_tag_name('iframe')
@@ -67,6 +73,7 @@ nicknames.send_keys(nickname)
 nicknames.send_keys(Keys.ENTER)
 iframes = driver.find_elements_by_tag_name('iframe')
 driver.save_screenshot("70.png")
+print("[INFO!] Minecraft NickName = "+nickname)
 audioBtnFound = False
 audioBtnIndex = -1
 
@@ -87,7 +94,7 @@ for index in range(len(iframes)):
 if audioBtnFound:
     try:
         while True:
-            # get the mp3 audio file
+            # get the mp3 audio fil
             src = driver.find_element_by_id("audio-source").get_attribute("src")
             print("[INFO] Audio src: %s" % src)
 
@@ -118,6 +125,5 @@ if audioBtnFound:
 
     except Exception as e:
         print(e)
-        sys.exit("[INFO] Possibly blocked by google. Change IP,Use Proxy method for requests")
 else:
     sys.exit("[INFO] Audio Play Button not found! In Very rare cases!")
