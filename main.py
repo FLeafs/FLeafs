@@ -11,20 +11,12 @@ import requests
 
 audioToTextDelay = 10
 delayTime = 2
-url1 = "https://cdn.discordapp.com/attachments/811871558138200075/911082266812370944/1.txt"
-url2 = 'https://cdn.discordapp.com/attachments/811871558138200075/911084580214284298/2.txt'
 audioFile = "\\payload.mp3"
 URL = "https://minecraft-mp.com/server/295107/vote?alternate_captcha=2"
 SpeechToTextURL = "https://speech-to-text-demo.ng.bluemix.net/"
-name1 = requests.get(url1).text
-name2 = requests.get(url2).text
-names1 = random.choice(name1.split())
-names2 = random.choice(name2.split())
-
-nickname = names1+names2
 
 def delay():
-    time.sleep(random.randint(5, 7))
+    time.sleep(random.randint(4, 6))
 
 def audioToText(audioFile):
     driver.execute_script('''window.open("","_blank")''')
@@ -58,9 +50,9 @@ try:
     # go to website which have recaptcha protection
     driver.get(URL)
     delay()
-    driver.save_screenshot("sss.png")
+    
 except Exception as e:
-   print("[INFO!] Minecraft NickName = "+nickname)
+   print("Ye")
 
 g_recaptcha = driver.find_elements_by_class_name('g-recaptcha')[0]
 outerIframe = g_recaptcha.find_element_by_tag_name('iframe')
@@ -69,11 +61,9 @@ outerIframe.click()
 xapt = driver.find_element_by_name("accept")
 xapt.click()
 nicknames = driver.find_element_by_name("nickname")
-nicknames.send_keys(nickname)
 nicknames.send_keys(Keys.ENTER)
 iframes = driver.find_elements_by_tag_name('iframe')
-driver.save_screenshot("70.png")
-print("[INFO!] Minecraft NickName = "+nickname)
+print("[INFO!] Minecraft NickName = MengKosong")
 audioBtnFound = False
 audioBtnIndex = -1
 
@@ -115,8 +105,8 @@ if audioBtnFound:
             delay()
             inputField.send_keys(Keys.ENTER)
             delay()
-            driver.save_screenshot("ss.png")
-            delay()
+            print("S")
+            time.sleep(3)
 
             err = driver.find_elements_by_class_name('rc-audiochallenge-error-message')[0]
             if err.text == "" or err.value_of_css_property('display') == 'none':
@@ -127,3 +117,6 @@ if audioBtnFound:
         print(e)
 else:
     sys.exit("[INFO] Audio Play Button not found! In Very rare cases!")
+
+time.sleep(30)
+driver.quit()
