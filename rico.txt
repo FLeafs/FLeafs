@@ -1,6 +1,6 @@
-Version=3.93
-Account=enricobzut
-Password=ricobumm1*
-Gmail=ikihhusz2biw
+Version=3.95
+Account=Blares
+Password=Blares#1
+Gmail=anjay.blares
 START_ACC=1
 START_GMAIL=1
