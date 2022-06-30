@@ -1,0 +1,6 @@
+Version=3.93
+Account=enricobzut
+Password=ricobumm1*
+Gmail=ikihhusz2biw
+START_ACC=1
+START_GMAIL=1
