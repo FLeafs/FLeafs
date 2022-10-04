@@ -1,14 +1,20 @@
-perkenalan tokoh - menjalani hari hari seperti biasa - sebentar lagi ulang tahun adik - tiba tiba minta kue dan eskrim - memikirkan cara mendapatkan uang - konflik batin - keajaiban dabet duit - beli roti dan doneee
+#Orientasi
+    Perkenalkan namaku Linux. Aku tinggal di desa OS, penduduk di sini semuanya ramah dan makmur. Teman-temanku semuanya mempunyai keluarga yang lengkap, tidak seperti aku yang hanya tinggal bersama adikku yang bernama Debian. Orang tua kami telah tiada beberapa tahun lalu karena pandemi.
+    Karena orang tua kami telah tiada, setiap hari aku harus mengurus adikku karena ia masih kecil dan harus sekolah. Aku kini kelas 9 dan adikku baru kelas 4. Tugas adikku dirumah adalah membereskan rumah dan memasak nasi. Sedangkan aku harus mencari nafkah sepulang sekolah agar kami tetap bisa bertahan hidup.
 
-Perkenalkan namaku Linux. Aku tinggal di desa OS, penduduk di sini semuanya ramah dan makmur. Teman-temanku semuanya mempunyai keluarga yang lengkap, tidak seperti aku yang hanya tinggal bersama adikku yang bernama Debian. Orang tua kami telah tiada beberapa tahun lalu karena pandemi.
-Karena orang tua kami telah tiada, setiap hari aku harus mengurus adikku karena ia masih kecil dan harus sekolah. Aku kini kelas 9 dan adikku baru kelas 4. Tugas adikku dirumah adalah membereskan rumah dan memasak nasi. Sedangkan aku harus mencari nafkah sepulang sekolah agar kami tetap bisa bertahan hidup.
-Aku memiliki tetangga yang baik hati, mereka adalah Bapak Andro dan Ibu Ios. Aku mendapatkan uang dengan membantu merawat kebun mereka yang sangat luas, saking luasnya mereka menyuruhku membantu merawatnya setiap hari dan memberiku upah. Walaupun upahnya tidak seberapa, tetapi masih cukup untuk kebutuhan sehari hari aku dan adikku.
-Selain itu aku bekerja menjadi kuli panggul di pasar, walaupun upahnya sedikit namun bisa untuk menambah pendapatanku. Aku kepasar biasanya setelah membantu tetanggaku merawat kebunnya. Lalu pulang saat menjelang maghrib sekaligus membeli lauk untuk makan dirumah nanti. Setelah sampai rumah, kita pun makan bersama.
+#Rangkaian Peristiwa
+    Aku memiliki tetangga yang baik hati, mereka adalah Bapak Andro dan Ibu Ios. Aku mendapatkan uang dengan membantu merawat kebun mereka yang sangat luas, saking luasnya mereka menyuruhku membantu merawatnya setiap hari dan memberiku upah. Walaupun upahnya tidak seberapa, tetapi masih cukup untuk kebutuhan sehari hari aku dan adikku.
+    Selain itu aku bekerja menjadi kuli panggul di pasar, walaupun upahnya sedikit namun bisa untuk menambah pendapatanku. Aku kepasar biasanya setelah membantu tetanggaku merawat kebunnya. Lalu pulang saat menjelang maghrib sekaligus membeli lauk untuk makan dirumah nanti. Setelah sampai rumah, kami pun makan bersama.
 Hari demi hari berlalu, aku harus tetap mencari nafkah. Walaupun berat, memang itulah yang harus aku lakukan. Seandainya orang tuaku masih ada, pasti hidup kami akan lebih mudah. Aku sering melamun melihat awan yang seakan-akan berbentuk wajah orang tuaku, awan tersebut tersenyum kepadaku sembari aku mendoakan mereka.
+    Suatu hari adikku menemuiku dan berkata "Hey kak Linux, sebentar lagi kan aku ulang tahun. Bolehkah aku meminta sesuatu?".
+    "Oiya sebentar lagi kamu sudah besar, memang kamu mau apa?", kataku.
+    "Aku hanya minta kue dan eskrim saja kok, aku kan ingin seperti teman-temanku yang lain >///<", kata adikku dengan wajah yang memohon.
+    "Baiklah...", kataku dengan ragu-ragu.
 
-Suatu hari adikku menemuiku dan berkata "Hey kak Linux, sebentar lagi kan aku ulang tahun. Bolehkah aku meminta sesuatu?".
-"Oiya sebentar lagi kamu sudah besar, memang kamu mau apa?", kataku.
-"Aku hanya minta kue dan eskrim saja kok, aku kan ingin seperti teman-temanku yang lain >///<", kata adikku dengan wajah yang memohon.
-"Baiklah...", kataku dengan ragu-ragu.
-Aku baru ingat kalau 1 minggu lagi adikku ulang tahun. Dan kali ini dia meminta kue dan eskrim. Aku bingung sekali karena harganya itu cukup mahal, dan uangku saat ini belum cukup untuk membelinya. Aku harus memikirkan cara lain agar mendapatkan uang lebih banyak.
-Setiap hari ku berdoa kepada Tuhan agar dimudahkan urusanku. Beberapa hari telah berlalu, tidak ada yang berubah aku tambah bingung bagaimana untuk membelikan hadiah untuk adikku nanti. 
+#Komplikasi
+    Aku baru ingat kalau 1 minggu lagi adikku ulang tahun. Dan kali ini dia meminta kue dan eskrim. Aku bingung sekali karena harganya itu cukup mahal, dan uangku saat ini belum cukup untuk membelinya. Aku harus memikirkan cara lain agar mendapatkan uang lebih banyak.
+    Setiap hari ku berdoa kepada Tuhan agar dimudahkan urusanku. Beberapa hari telah berlalu, tidak ada yang berubah aku sangat bingung bagaimana untuk membelikan hadiah untuk adikku nanti. Aku sampai memikirkan apakah terpaksa harus mencuri, karena tidak tahu cara lain. Aku bingung mengapa Tuhan tidak memberikanku apa yang aku inginkan, padahal kami selalu berdoa kepada-Nya. Akupun berada dititik dimana aku akan melakukan apapun tanpa memikirkan akibatnya. Namun aku harus mencoba lagi sampai aku mendapatkannya.
+
+#Resolusi
+    Akhirnya aku terpaksa mengelilingi kampung dan mencari orang yang sedang memburuhkan bantuan. Berharap saja mereka memberiku upah. Rumah demi rumah kulewati, ada yang memberiku upah adapun yang tidak aku tetap menerimanya. Akhirnya setelah sekian banyak rumah, uang pun sudah cukup. Aku pun sadar bahwa doa tanpa usaha atau kerja keras itu sia-sia.
+    Hari ulang tahun adikku pun tiba, aku memberinya kue dan eskrim yang dia inginkan. Dia pun sangat senang. Namun ini bukanlah akhirnya, aku harus tetap semangat menjaga adikku dan bersyukur atas segala yang telah Tuhan berikan kepada kami.
